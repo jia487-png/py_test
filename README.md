@@ -143,21 +143,21 @@ markers =
     protest: mark test cases for a third category    
 
 
-## 9、内置标记
+## 9、内置标记  
 
-1、不需要注册
-2、不仅用例筛选，还有特殊效果
-3、不同的内置标记产生不同的效果
+1、不需要注册  
+2、不仅用例筛选，还有特殊效果  
+3、不同的内置标记产生不同的效果  
 
-@pytest.mark.skip           无条件跳过  
-@pytest.mark.skipif         有条件跳过（当判断为真时跳过）
-@pytest.mark.xfail          预期失败
-@pytest.mark.parametrize    参数化测试，动态生成更多用例
-@pytest.mark.usefixture     自动使用fixture 
+@pytest.mark.skip           无条件跳过    
+@pytest.mark.skipif         有条件跳过（当判断为真时跳过）   
+@pytest.mark.xfail          预期失败   
+@pytest.mark.parametrize    参数化测试，动态生成更多用例    
+@pytest.mark.usefixture     自动使用fixture     
 
-## 10、fixture    夹具：实现用例前置、自动化后置操作
+## 10、fixture    夹具：实现用例前置、自动化后置操作   
 
-1、它是一个函数
+1、它是一个函数 
 
 2、装饰器  @pytest.fixture
 
@@ -168,11 +168,11 @@ markers =
 
 5、fixture的作用范围
 
-    A、Function：默认，在函数范围内进行共享
-    B、Class：在同一个类范围内进行共享
-    C、module：在同一个模块（文件）范围内进行共享
-    D、package：在同一个包（目录）范围内进行共享
-    E、seesion：在同一次执行的所有用例中进行共享
+    A、Function：默认，在函数范围内进行共享   
+    B、Class：在同一个类范围内进行共享   
+    C、module：在同一个模块（文件）范围内进行共享   
+    D、package：在同一个包（目录）范围内进行共享   
+    E、seesion：在同一次执行的所有用例中进行共享   
 
 ~~~~
 import pytest
