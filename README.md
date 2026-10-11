@@ -1,5 +1,5 @@
 # py_test
-pytest测试用例
+pytest测试用例（一）
 
 # 安装PYTEST
 pip install pytest
@@ -76,13 +76,11 @@ test_jps.py::TestMathOperations::test_division_by_zero PASSED
 
 # 8、筛选用例
 
+使用@pytest.mark.<筛选名字>进行标记装饰    
 
-
-使用@pytest.mark.<筛选名字>进行标记装饰  
-
-1.注册：在配置文件pytest.ini文件中
-2.使用：装饰器@pytest.mark.<筛选名字>
-3.筛选：命令行参数 -m <筛选名字>
+1.注册：在配置文件pytest.ini文件中  
+2.使用：装饰器@pytest.mark.<筛选名字>  
+3.筛选：命令行参数 -m <筛选名字>  
 
 ~~~~
 import pytest
