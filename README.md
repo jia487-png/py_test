@@ -135,12 +135,12 @@ test_sxyl.py .                                                                  
 
 ## pytest.ini 文件结构
 
-[pytest]
-markers =
-    shuaixuan: mark test cases for filtering  
-    apitest: mark test cases for a specific category  
-    dbtest: mark test cases for another category  
-    protest: mark test cases for a third category  
+[pytest]  
+markers =    
+    shuaixuan: mark test cases for filtering    
+    apitest: mark test cases for a specific category    
+    dbtest: mark test cases for another category    
+    protest: mark test cases for a third category    
 
 
 ## 9、内置标记
